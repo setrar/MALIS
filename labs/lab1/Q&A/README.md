@@ -1,6 +1,6 @@
 # Q&A to :cat:GPT
 
-## :cat:GPT: What is a polynomial feature in linear regression?
+## :cat:GPT What is a polynomial feature in linear regression?
 
 In the context of linear regression and machine learning, "polynomial features" refer to a technique used to capture and model non-linear relationships between independent (input) variables and the dependent (output) variable. In linear regression, the model assumes a linear relationship between the independent variables and the target variable. However, many real-world relationships are not strictly linear, and in such cases, polynomial features can be used to better represent these non-linear patterns.
 
