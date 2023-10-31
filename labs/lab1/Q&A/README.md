@@ -100,3 +100,34 @@ array([[1],
        [4],
        [5]])
 ```
+
+## :cat:GPT What is the difference between linear and logistic regression?
+
+Linear regression and logistic regression are both statistical techniques used in different types of modeling, and they have distinct purposes and characteristics. Here are the key differences between linear and logistic regression:
+
+1. **Type of Dependent Variable**:
+   - **Linear Regression**: Linear regression is used when the dependent variable (the variable you are trying to predict) is continuous and numerical. It is suited for problems where the outcome variable is on a continuous scale, such as predicting house prices or a person's income.
+
+   - **Logistic Regression**: Logistic regression, on the other hand, is used when the dependent variable is binary or categorical (typically representing two classes like 0 and 1, yes and no, or true and false). It is used for classification problems, like predicting whether an email is spam or not, or whether a patient has a disease or not.
+
+2. **Model Function**:
+   - **Linear Regression**: Linear regression models the relationship between the independent variables and the dependent variable using a linear equation. The goal is to find the best-fitting line (or hyperplane in multiple dimensions) that minimizes the sum of squared errors.
+
+   - **Logistic Regression**: Logistic regression models the relationship between the independent variables and the log-odds of the dependent variable being in a particular category. It uses the logistic function (sigmoid function) to transform the linear combination of inputs into a probability score, which is then used to make binary classification decisions.
+
+3. **Output**:
+   - **Linear Regression**: The output of linear regression is a continuous numerical value. It predicts a real number as the outcome.
+
+   - **Logistic Regression**: The output of logistic regression is a probability value between 0 and 1, which represents the probability of the input belonging to a particular class. It is used for binary classification tasks.
+
+4. **Error Metric**:
+   - **Linear Regression**: In linear regression, the typical error metric used is Mean Squared Error (MSE) or Root Mean Squared Error (RMSE), which measures the average squared difference between predicted and actual values.
+
+   - **Logistic Regression**: In logistic regression, common error metrics include accuracy, precision, recall, F1-score, and the log loss (cross-entropy) for assessing classification performance.
+
+5. **Assumptions**:
+   - **Linear Regression**: Linear regression assumes a linear relationship between the independent and dependent variables and assumes that the errors are normally distributed.
+
+   - **Logistic Regression**: Logistic regression assumes a linear relationship between the independent variables and the log-odds of the dependent variable, and it doesn't assume normality of errors. It's more robust to violations of assumptions.
+
+In summary, linear regression is used for predicting continuous numerical values, while logistic regression is used for binary classification problems where the outcome is categorical. They use different mathematical models and have different error metrics and assumptions. The choice between the two depends on the nature of the problem you are trying to solve.
