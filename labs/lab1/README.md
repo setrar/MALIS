@@ -7,3 +7,7 @@ The lab is divided into two parts:
 1. [Part 1: Linear Regression](./linear/linear.md)
 2. [Part 2: Logistic Regression](./logistic/logistic.md)
 
+# References
+
+- [ ] [Concise algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/)](https://github.com/mossr/BeautifulAlgorithms.jl)
+
