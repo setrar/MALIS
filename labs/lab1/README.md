@@ -10,4 +10,5 @@ The lab is divided into two parts:
 # References
 
 - [ ] [Concise algorithms written in Julia ](https://github.com/mossr/BeautifulAlgorithms.jl) and formatted with [Carbon](https://carbon.now.sh/)
+- [ ] [LaTex Symbols Julia](https://github.com/JuliaLang/julia/blob/master/stdlib/REPL/src/latex_symbols.jl)
 
