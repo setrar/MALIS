@@ -9,5 +9,5 @@ The lab is divided into two parts:
 
 # References
 
-- [ ] [Concise algorithms written in Julia and formatted with [Carbon](https://carbon.now.sh/)](https://github.com/mossr/BeautifulAlgorithms.jl)
+- [ ] [Concise algorithms written in Julia ](https://github.com/mossr/BeautifulAlgorithms.jl) and formatted with [Carbon](https://carbon.now.sh/)
 
