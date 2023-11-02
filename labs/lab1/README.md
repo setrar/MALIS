@@ -11,4 +11,5 @@ The lab is divided into two parts:
 
 - [ ] [Concise algorithms written in Julia ](https://github.com/mossr/BeautifulAlgorithms.jl) and formatted with [Carbon](https://carbon.now.sh/)
 - [ ] [LaTex Symbols Julia](https://github.com/JuliaLang/julia/blob/master/stdlib/REPL/src/latex_symbols.jl)
+- [ ] [A function the provides the \[TAB\] key latex functionality in Julia REPL](https://stackoverflow.com/questions/72607317/a-function-the-provides-the-tab-key-latex-functionality-in-julia-repl)
 
