@@ -12,6 +12,14 @@ Nearest-neighbor methods use the observations from the training set closest in i
 
  This corresponds to a [_Voronoi tessellation_](https://en.wikipedia.org/wiki/Voronoi_diagram) of the training data.
 
+> Objectives
+> By executing this project, you will be able to
+> 1. Have a better understanding of the mechanisms behind the k nearest neighbor
+algorithm
+> 2. Be aware of the problems associated with the curse of dimensionality.
+> 3. Familiarize with the process of training, validation and testing
+> 4. Gain proficiency in the use of python, Jupyter, libraries used in machine learning (pandas, numpy, matplotlib, etc) and programming , in general.
+
 ## Part I – Implementing a kNN from scratch:
 
 - [ ] Task 1.
