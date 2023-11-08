@@ -29,6 +29,8 @@ algorithm
 2. predict – with the necessary steps to predict the labels y of a group of samples X.
 3. minkowski_dist – which implements the Minkowski distance as seen during the first lecture.
 
+Make sure you debug your code, to verify that it works accordingly. You may consider comparing it against scikit-learns implementation for validation.
+
 - [ ] Task 2.
 
 ## Part II – The curse of dimensionality:
