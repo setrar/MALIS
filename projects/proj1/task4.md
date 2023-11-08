@@ -17,7 +17,8 @@ Starting with the given equation:
 $$d(p, N) = \left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}$$
 
 Step 1: Take the natural logarithm (ln) of both sides:
-\[\ln(d) = \ln\left[\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}\right]\]
+
+$$\ln(d) = \ln\left[\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}\right]$$
 
 Step 2: Apply the natural logarithm rules and the properties of exponents:
 \[\ln(d) = \frac{1}{p} \ln\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)\]
