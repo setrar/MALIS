@@ -37,11 +37,13 @@ The [experiment.ipynb](experiment.ipynb) notebook contains some pre-coded routin
 
 ## Part II – The curse of dimensionality:
 
-To get familiar with it, first read section 2.5 from the book [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf). 
+You will dig into the concept of the curse of dimensionality. To get familiar with it, first read section 2.5 from the book [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf). After reading, **choose one** of the two tasks below.
 
-After reading, **choose one** of the two tasks below.
+- [ ] `Task 3.` Suppose you have a D dimension hypercube with all sides of length 1 in the Cartesian map, i.e. [0,1]𝐷. You sample the training data **uniformly** from this hypercube, i.e. ∀𝑖 , 𝐱𝑖 ∈ [0,1]𝐷. Assume 𝑘=10 to define the label of a test point.
 
-- [ ] Task 3.
+Let 𝑙 be the edge length of the smallest hypercube that contains all k-nearest neighbor of a test point. What is the approximate volume of the hypercube? What is the length of 𝑙 in terms of 𝑘, 𝐷 (the dimensions) and 𝑁 the number of training points?
+
+Using the expression you found for 𝑙 in the previous question, estimate the size of 𝑙 as a fuction of 𝐷, while assuming a training set of size N=1000. Plot it in [experiment.ipynb](experiment.ipynb). What consequences this may have for the k nearest neighbor algorithm?
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
 
