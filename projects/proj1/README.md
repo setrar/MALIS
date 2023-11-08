@@ -36,9 +36,8 @@ After reading, **choose one** of the two tasks below.
 
 
 Important:
-• Failing to submit a report leads to a mark of zero (0).
-• If ChatGPT is used, failing to report it and explaining its use leads to a mark of zero (0).
-• A group will be chosen at random to present their solution during the lecture. Failing to
-justify the submitted solution leads to a mark of zero (0).
+- Failing to submit a report leads to a mark of zero (0).
+- If ChatGPT is used, failing to report it and explaining its use leads to a mark of zero (0).
+- A group will be chosen at random to present their solution during the lecture. Failing to justify the submitted solution leads to a mark of zero (0).
 
 
