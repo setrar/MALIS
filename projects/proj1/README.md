@@ -23,7 +23,7 @@ algorithm
 
 ## Part I – Implementing a kNN from scratch:
 
-- [ ] `Task 1.` Your first task will be to code the k NN learning algorithm. In attachment you have been provided with the file knn.py. This contains the skeleton of a Python class that you will need to complete with the necessary code. In particular, you will need to implement the following functions:
+- [ ] `Task 1.` Your first task will be to code the k NN learning algorithm. In attachment you have been provided with the file [`knn.py`](knn.py). This contains the skeleton of a Python class that you will need to complete with the necessary code. In particular, you will need to implement the following functions:
 
 - [ ] Task 2.
 
