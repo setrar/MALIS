@@ -1,11 +1,16 @@
 # Project 1: Undertanding k-NNs
 
-kNN is considered a non-parametric method given that it makes few assumptions about the form of the data distribution. This approach is memory-based as it requires no model to be fit.
+kNN is considered a non-parametric method given that it makes few assumptions about the form of the data distribution. This approach is _memory-based_ as it requires no model to be fit.
 
 Nearest-neighbor methods use the observations from the training set closest in input space to 𝑥 to form 𝑦̂ . It assumes that if a sample's features are similar to the ones of points of one particular class then it belongs to that class. These points are known as nearest neighbors.
 
-The specific case where 𝑘=1 is denoted the nearest neighbor algorithm. Here 𝑦̂ is assigned the value 𝑦𝑙 of the closest point 𝑥𝑙 to 𝑥 in the training data. This corresponds to a Voronoi tessellation of the training data.
+The specific case where _𝑘=1_ is denoted the nearest neighbor algorithm. 
 
+```math
+\text{ Here } \hat{\mathit{y}} \text { is assigned the value } \mathit{y}_l  \text { of the closest point } \mathit{x}_𝑙 \text { to } \mathit{x} \text{ in the training data.}
+```
+
+ This corresponds to a _Voronoi tessellation_ of the training data.
 
 ## Part I – Implementing a kNN from scratch:
 
