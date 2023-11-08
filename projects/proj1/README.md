@@ -33,6 +33,8 @@ Make sure you debug your code, to verify that it works accordingly. You may cons
 
 - [ ] `Task 2.` You have also been provided with two files: [training.csv](data/training.csv) and [validation.csv](data/validation.csv). Use them to do hyper-parameter tuning. In other words, use the data to choose the best k, according to your data.
 
+The [experiment.ipynb](experiment.ipynb) notebook contains some pre-coded routines that may help you to quickly plot your data (as long as it is 2D) and display it.
+
 ## Part II – The curse of dimensionality:
 
 To get familiar with it, first read section 2.5 from the book [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf). 
