@@ -13,6 +13,7 @@ Nearest-neighbor methods use the observations from the training set closest in i
  This corresponds to a [_Voronoi tessellation_](https://en.wikipedia.org/wiki/Voronoi_diagram) of the training data.
 
 > Objectives
+> 
 > By executing this project, you will be able to
 > 1. Have a better understanding of the mechanisms behind the k nearest neighbor
 algorithm
