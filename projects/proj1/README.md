@@ -51,8 +51,11 @@ Using the expression you found for 𝑙 in the previous question, estimate the s
 
 ## Report:
 
+You need to prepare a 1-page report explaining how your model was trained, the results obtained in the validation set and the strategy you used to choose k. Then, you need to discuss how the curse of dimensionality affects kNNs and present/discuss the task you chose for Part II as a way to support your claims.
+
 ## Deliverables:
 
+Upload a zip file named <group-name>.zip containing the report, the knn.py file and any instructions required to run it.
 
 # Evaluation:
 
