@@ -25,6 +25,10 @@ algorithm
 
 - [ ] `Task 1.` Your first task will be to code the k NN learning algorithm. In attachment you have been provided with the file [`knn.py`](knn.py). This contains the skeleton of a Python class that you will need to complete with the necessary code. In particular, you will need to implement the following functions:
 
+1. train – with the necessary steps to train a kNN
+2. predict – with the necessary steps to predict the labels y of a group of samples X.
+3. minkowski_dist – which implements the Minkowski distance as seen during the first lecture.
+
 - [ ] Task 2.
 
 ## Part II – The curse of dimensionality:
