@@ -32,7 +32,8 @@ Step 4: Using the chain rule and the differentiation of logarithmic functions:
 
 $$\frac{1}{d} \cdot \frac{dd}{dp} = \frac{1}{p^2} \ln\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right) - \frac{1}{p^2} \cdot \frac{1}{1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}} \cdot \left(-\frac{1}{2}\right)^{\frac{1}{N}} \cdot \frac{1}{N} \cdot \frac{dN}{dp}$$
 
-Step 5: Simplify and solve for \(\frac{dd}{dp}\) (the derivative of \(d\) with respect to \(p\):
-\[\frac{dd}{dp} = d \cdot \left[\frac{1}{p^2} \ln\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right) - \frac{1}{p^2} \cdot \frac{1}{1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}} \cdot \left(-\frac{1}{2}\right)^{\frac{1}{N}} \cdot \frac{1}{N} \cdot \frac{dN}{dp}\right]\]
+Step 5: Simplify and solve for $$\frac{dd}{dp}$$ (the derivative of $$d$$ with respect to $$p$$:
 
-So, the derivative of \(d\) with respect to \(p\) is given by the expression above.
+$$\frac{dd}{dp} = d \cdot \left[\frac{1}{p^2} \ln\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right) - \frac{1}{p^2} \cdot \frac{1}{1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}} \cdot \left(-\frac{1}{2}\right)^{\frac{1}{N}} \cdot \frac{1}{N} \cdot \frac{dN}{dp}\right]$$
+
+So, the derivative of `d` with respect to `p` is given by the expression above.
