@@ -16,7 +16,7 @@ After reading, **choose one** of the two tasks below.
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
 
---
+---
 
 ## Report:
 
