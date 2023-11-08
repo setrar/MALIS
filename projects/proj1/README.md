@@ -31,7 +31,7 @@ algorithm
 
 Make sure you debug your code, to verify that it works accordingly. You may consider comparing it against scikit-learns implementation for validation.
 
-- [ ] Task 2.
+- [ ] `Task 2.` You have also been provided with two files: [training.csv](data/training.csv) and [validation.csv](data/validation.csv). Use them to do hyper-parameter tuning. In other words, use the data to choose the best k, according to your data.
 
 ## Part II – The curse of dimensionality:
 
