@@ -10,7 +10,7 @@ The specific case where _𝑘=1_ is denoted the nearest neighbor algorithm.
 \text{ Here } \hat{\mathit{y}} \text { is assigned the value } \mathit{y}_l  \text { of the closest point } \mathit{x}_𝑙 \text { to } \mathit{x} \text{ in the training data.}
 ```
 
- This corresponds to a _Voronoi tessellation_ of the training data.
+ This corresponds to a [_Voronoi tessellation_](https://en.wikipedia.org/wiki/Voronoi_diagram) of the training data.
 
 ## Part I – Implementing a kNN from scratch:
 
