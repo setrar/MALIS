@@ -4,9 +4,9 @@ kNN is considered a non-parametric method given that it makes few assumptions ab
 
 Nearest-neighbor methods use the observations from the training set closest in input space to 𝑥 to form 𝑦̂ . It assumes that if a sample's features are similar to the ones of points of one particular class then it belongs to that class. These points are known as nearest neighbors.
 
-The specific case where _𝑘=1_ is denoted the nearest neighbor algorithm. 
 
 ```math
+\text { The specific case where _𝑘=1_ is denoted the nearest neighbor algorithm. }
 \text{ Here } \hat{\mathit{y}} \text { is assigned the value } \mathit{y}_l  \text { of the closest point } \mathit{x}_𝑙 \text { to } \mathit{x} \text{ in the training data.}
 ```
 
