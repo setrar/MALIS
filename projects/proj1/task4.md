@@ -7,10 +7,14 @@
 \text{ To find the derivative of the function }  d(p, N) = \left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}} \text { , you can use logarithmic differentiation. }
 ```
 
-This process involves taking the natural logarithm (ln) of both sides of the equation and then differentiating with respect to the variables p and N. Here's the step-by-step derivation:
+This process involves taking the natural logarithm (ln) of both sides of the equation and then differentiating with respect to the variables p and N. 
+
+Here's the step-by-step derivation:
 
 Starting with the given equation:
-\[d(p, N) = \left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}\]
+
+
+$$d(p, N) = \left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}$$
 
 Step 1: Take the natural logarithm (ln) of both sides:
 \[\ln(d) = \ln\left[\left(1 - \left(\frac{1}{2}\right)^{\frac{1}{N}}\right)^{\frac{1}{p}}\right]\]
