@@ -1,5 +1,7 @@
 # REPORT
 
+Team: Ekemini Ekong, Brice Robert 
+
 ## Part I – Implementing a kNN from scratch:
 
 - [ ] Task 1.
