@@ -18,8 +18,8 @@ D(X,Y) = ( \sum_{i=1}^n | x_i - y_i |^p )^{\dfrac{1}{p}}
 
 - [ ] Task 2.
 
-Studying the `curse of dimensionality` issue, we figured there was no need to exceed the 300 neighbor count so I tested through the notebook by ,first, adding manual code and then looping through a function. The function was removed since it was causing delays in the execution a k-NN range was used to determine the best k.
+Studying the `curse of dimensionality` issue, we figured there was no need to exceed the 300 neighbor count so we tested through the notebook by ,first, adding manual code and then looping through a function. The function was removed since it was causing delays in the execution a k-NN range was used to determine the best k.
 
 The range loop returned with an accuracy score of 80.54% for 246, 247 neighbor points. 
 
-The 
+The model speed needs to be worked on since despite the Python interpreter being slow, room for improvment is always possible.
