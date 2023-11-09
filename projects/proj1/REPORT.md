@@ -23,3 +23,12 @@ Studying the `curse of dimensionality` issue, we figured there was no need to ex
 The range loop returned with an accuracy score of 80.54% for 246, 247 neighbor points. 
 
 The model speed needs to be worked on since despite the Python interpreter being slow, room for improvment is always possible.
+
+Part II – The curse of dimensionality:
+
+- [ ] Task 3.
+
+- An attempt to calculate l (edge lenght) has been given based on a formula extracted form diverse sources (link for References are provided). 
+- Another attempt to display the distances calculated from the Validation data were displayed on a plot.
+- The validation data only having 2 dimensions, the demonstration were made against n (number of samples) and k nearest neighbors.
+- Some [code](https://gist.github.com/BadreeshShetty/bf9cb1dced8263ef997bcb2c3926569b) explaining how the dimension can affect performances were not displayed to prove the curse of dimentionality issue.
