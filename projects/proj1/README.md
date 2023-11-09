@@ -33,7 +33,7 @@ Make sure you debug your code, to verify that it works accordingly. You may cons
 
 - [ ] `Task 2.` You have also been provided with two files: [training.csv](data/training.csv) and [validation.csv](data/validation.csv). Use them to do hyper-parameter tuning. In other words, use the data to choose the best k, according to your data.
 
-The [experiment.ipynb](experiment.ipynb) notebook contains some pre-coded routines that may help you to quickly plot your data (as long as it is 2D) and display it.
+The [experiment.ipynb](experiments.ipynb) notebook contains some pre-coded routines that may help you to quickly plot your data (as long as it is 2D) and display it.
 
 ## Part II – The curse of dimensionality:
 
@@ -43,7 +43,7 @@ You will dig into the concept of the curse of dimensionality. To get familiar wi
 
 Let 𝑙 be the edge length of the smallest hypercube that contains all k-nearest neighbor of a test point. What is the approximate volume of the hypercube? What is the length of 𝑙 in terms of 𝑘, 𝐷 (the dimensions) and 𝑁 the number of training points?
 
-Using the expression you found for 𝑙 in the previous question, estimate the size of 𝑙 as a fuction of 𝐷, while assuming a training set of size N=1000. Plot it in [experiment.ipynb](experiment.ipynb). What consequences this may have for the k nearest neighbor algorithm?
+Using the expression you found for 𝑙 in the previous question, estimate the size of 𝑙 as a fuction of 𝐷, while assuming a training set of size N=1000. Plot it in [experiment.ipynb](experiments.ipynb). What consequences this may have for the k nearest neighbor algorithm?
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
 
