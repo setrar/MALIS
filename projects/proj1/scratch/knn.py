@@ -1,7 +1,7 @@
 import numpy as np
 from collections import Counter
 
-def euclidean_distance(x1, x2, p):
+def minkowski_distance(x1, x2, p=2):
     distance = (np.sum((x1-x2)**p))**(1/p)
     return distance
 
@@ -19,13 +19,13 @@ class KNN:
 
     def _predict(self, x):
         # compute the distance
-        distances = [euclidean_distance(x, x_train, 2) for x_train in self.X_train]
+        distances = [minkowski_distance(x, x_train) for x_train in self.X_train]
     
         # get the closest k
         k_indices = np.argsort(distances)[:self.k]
         k_nearest_labels = [self.y_train[i] for i in k_indices]
 
-        # majority voye
+        # majority vote
         most_common = Counter(k_nearest_labels).most_common()
         return most_common[0][0]
 
