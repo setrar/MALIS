@@ -34,3 +34,7 @@ Part II – The curse of dimensionality:
 - Another attempt to display the distances calculated from the Validation data were displayed on a plot.
 - The validation data only having 2 dimensions, the demonstration were made against n (number of samples) and k nearest neighbors.
 - Some [code](https://gist.github.com/BadreeshShetty/bf9cb1dced8263ef997bcb2c3926569b) explaining how the dimension can affect performances were not displayed to prove the curse of dimentionality issue.
+
+## :bulb: Konown Issue
+
+The `util.py` source file ws not used due to the `plt.pcolormesh` function crashing 
