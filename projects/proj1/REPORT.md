@@ -4,11 +4,10 @@
 
 - [ ] Task 1.
 
-By updating the `knn.py` source file representing the kNN Classifier, I was able to add/fill the nescessary methods that allows the `experiment` notebook to run.
+By updating the `knn.py` source file representing the kNN Classifier, we wre able to add/fill the nescessary methods that allows the `experiments` notebook to run.
 
-The `knn.py` source code mimics the `sklearn.neighbors.KNeighborsClassifier` from the Python package `scikit-learn `. 
-
-The distance metrics used are `Euclidian distance` and `Minkowski distance` using the same function but changing the parameters 
+- The `knn.py` source code mimics the `sklearn.neighbors.KNeighborsClassifier` from the Python package `scikit-learn `.
+- The distance metrics used are `Euclidian distance` and `Minkowski distance` using the same function but changing the parameters 
 
 ```math
 D(X,Y) = ( \sum_{i=1}^n | x_i - y_i |^p )^{\dfrac{1}{p}}
