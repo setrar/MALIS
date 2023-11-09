@@ -2,7 +2,7 @@ import numpy as np
 from collections import Counter
 
 def minkowski_distance(x1, x2, p=2):
-    distance = (np.sum((x1-x2)**p))**(1/p)
+    distance = (np.sum(abs(x1-x2)**p))**(1/p)
     return distance
 
 class KNN:
@@ -14,12 +14,16 @@ class KNN:
         self.y_train = y
 
     def predict(self, X):
-        predictions = [self._predict(x) for x in X]
+        predictions = [self._predict(x,p=2) for x in X]
         return predictions
 
-    def _predict(self, x):
+    def minkowski_prediction(self, X, p):
+        predictions = [self._predict(x, p) for x in X]
+        return predictions
+
+    def _predict(self, x, p):
         # compute the distance
-        distances = [minkowski_distance(x, x_train) for x_train in self.X_train]
+        distances = [minkowski_distance(x, x_train, p) for x_train in self.X_train]
     
         # get the closest k
         k_indices = np.argsort(distances)[:self.k]
