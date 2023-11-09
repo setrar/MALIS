@@ -1,3 +1,7 @@
+"""
+Ekimini Ekong
+Brice Robert
+"""
 import numpy as np
 from collections import Counter
 from scipy.spatial import minkowski_distance as m_d
