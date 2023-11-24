@@ -6,4 +6,5 @@
 \\
 \phi(v) = [v_i^2, \sqrt(2Cv_1)), c]^T
 \\
+\end{gather}
 ```
