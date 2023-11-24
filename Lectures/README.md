@@ -1,5 +1,5 @@
 
 
 ```math
-\theta(u) = [u_i^2, \sqrt(2Cu_1))
+\phi(u) = [u_i^2, \sqrt(2Cu_1))
 ```
