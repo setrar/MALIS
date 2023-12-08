@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 Lecture 1
 
 - Supervised Learning 80%
    1) Regression
    2) Classification
-
-=======
-
 
 ```math
 \begin{gather}
@@ -17,4 +13,3 @@ Lecture 1
 \phi(u)^T\phi(v) = u_i^2 v_i^2 + 2cu_iv_i + c^2
 \end{gather}
 ```
->>>>>>> 90cb1ed93244e78e33f6004d926fb43cc0d72c8c
