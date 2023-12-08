@@ -10,7 +10,7 @@ $$y = \alpha + \beta \cdot x $$
 where:
 ```math
 \begin{cases}
--  y  \text { is the dependent variable, }
+\; -  y  \text { is the dependent variable, }
 \\
 -  x  \text { is the independent variable, }
 \\
