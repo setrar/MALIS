@@ -1,0 +1,36 @@
+
+## &#x1F4D1; what is the closed-form solution for a linear regression
+
+The closed-form solution for linear regression involves finding the optimal parameters (coefficients) for the linear model directly, rather than using iterative optimization algorithms like gradient descent. For simple linear regression (with one independent variable), the closed-form solution is expressed as follows:
+
+Given the linear model:
+
+\[ y = \beta_0 + \beta_1 \cdot x \]
+
+where:
+- \( y \) is the dependent variable,
+- \( x \) is the independent variable,
+- \( \beta_0 \) is the y-intercept,
+- \( \beta_1 \) is the slope.
+
+The closed-form solution for the coefficients \( \beta_0 \) and \( \beta_1 \) can be found using the following formulas:
+
+\[ \beta_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} \]
+
+\[ \beta_0 = \bar{y} - \beta_1 \cdot \bar{x} \]
+
+where:
+- \( n \) is the number of data points,
+- \( \bar{x} \) is the mean of the independent variable \( x \),
+- \( \bar{y} \) is the mean of the dependent variable \( y \).
+
+For multiple linear regression (with more than one independent variable), the closed-form solution involves using matrix algebra:
+
+\[ \mathbf{\beta} = (\mathbf{X}^T \mathbf{X})^{-1} \mathbf{X}^T \mathbf{y} \]
+
+where:
+- \( \mathbf{\beta} \) is the vector of coefficients,
+- \( \mathbf{X} \) is the matrix of independent variables,
+- \( \mathbf{y} \) is the vector of dependent variable values.
+
+Note: The closed-form solution assumes that the matrix \( \mathbf{X}^T \mathbf{X} \) is invertible. If it is not invertible, or if the features are highly correlated, other regularization techniques like Ridge regression or Lasso regression might be preferred.
