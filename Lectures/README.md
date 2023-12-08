@@ -5,21 +5,21 @@ Lecture's content and syllabus
 
 &#x1F4D1;  [Lecture 1: Introduction [Oct. 6]](1)
 
-&#x1F4D1;  Lecture 2: Linear Models for Regression [Oct 13]Page
+&#x1F4D1;  [Lecture 2: Linear Models for Regression [Oct 13]](2)
 
-&#x1F4D1;  Lecture 3: Linear Classifiers: LDA & Logistic Regression [Oct 18]Page
+&#x1F4D1;  [Lecture 3: Linear Classifiers: LDA & Logistic Regression [Oct 18]](3)
 
-&#x1F4D1;  Lecture 4: Gradient Descent [Oct 27]Page
+&#x1F4D1;  [Lecture 4: Gradient Descent [Oct 27]](4)
 
-&#x1F4D1;  Lecture 5: The Perceptron & Bias-Variance Decomposition [Nov 10]Page
+&#x1F4D1;  [Lecture 5: The Perceptron & Bias-Variance Decomposition [Nov 10]](5)
 
-&#x1F4D1;  Lecture 6: Support Vector Machines & Kernels [Nov 17]Page
+&#x1F4D1;  [Lecture 6: Support Vector Machines & Kernels [Nov 17]](6)
 
-&#x1F4D1;  Lecture 7: Kernels [Nov 24]Page
+&#x1F4D1;  [Lecture 7: Kernels [Nov 24]](7)
 
-&#x1F4D1;  Lecture 8: Kernels (cont), Bias-variance decomposition and regularization [Dec 1]Page
+&#x1F4D1;  [Lecture 8: Kernels (cont), Bias-variance decomposition and regularization [Dec 1]](8)
 
-&#x1F4D1;  Lecture 9: Regularization, Validation & Trees (Part I) [Dec 8]
+&#x1F4D1;  [Lecture 9: Regularization, Validation & Trees (Part I) [Dec 8]](9)
 
 
 # References
