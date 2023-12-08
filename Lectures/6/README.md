@@ -2,9 +2,9 @@
 
 Topics:
 
-1. Hard Support Vector Machine [slides]](content/06_soft_svm.pdf)
-1. Soft Margin SVM [slides]](content/06_soft_svm.pdf)
-1. Kernels [slides]](content/07_kernels.pdf)
+1. Hard Support Vector Machine [[slides]](content/06_soft_svm.pdf)
+1. Soft Margin SVM [[slides]](content/06_soft_svm.pdf)
+1. Kernels [[slides]](content/07_kernels.pdf)
 
 Topics to revise:
 
