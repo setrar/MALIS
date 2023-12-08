@@ -8,14 +8,14 @@ Given the linear model:
 y = \alpha + \beta \cdot x 
 
 where:
-$$
+```math
 \begin{cases}
 -  y  \text { is the dependent variable, }
 -  x  \text { is the independent variable, }
 - \alpha  \text { is the y-intercept, }
 -  \beta  \text { is the slope. }
 \end{cases}
-$$
+```
 
 The closed-form solution for the coefficients \( \beta_0 \) and \( \beta_1 \) can be found using the following formulas:
 
