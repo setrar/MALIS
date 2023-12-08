@@ -22,9 +22,9 @@ where:
 
 The closed-form solution for the coefficients α and β can be found using the following formulas:
 
-$$ \beta_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} $$
+$$ \hat{w} = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} $$
 
-\[ \beta_0 = \bar{y} - \beta_1 \cdot \bar{x} \]
+$$ \beta_0 = \bar{y} - \beta_1 \cdot \bar{x} \]
 
 where:
 - \( n \) is the number of data points,
@@ -41,3 +41,18 @@ where:
 - \( \mathbf{y} \) is the vector of dependent variable values.
 
 Note: The closed-form solution assumes that the matrix \( \mathbf{X}^T \mathbf{X} \) is invertible. If it is not invertible, or if the features are highly correlated, other regularization techniques like Ridge regression or Lasso regression might be preferred.
+
+Certainly! Let's use the notations \(\alpha\) for the y-intercept and \(\beta\) for the slope in the formulas:
+
+\[ \beta = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} \]
+
+\[ \alpha = \bar{y} - \beta \cdot \bar{x} \]
+
+These formulas represent the closed-form solution for simple linear regression, where:
+- \( \alpha \) is the y-intercept,
+- \( \beta \) is the slope,
+- \( n \) is the number of data points,
+- \( \bar{x} \) is the mean of the independent variable \( x \),
+- \( \bar{y} \) is the mean of the dependent variable \( y \).
+
+Note: The notation \(\alpha\) is commonly used for the y-intercept in the context of linear regression.
