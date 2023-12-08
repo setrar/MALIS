@@ -4,9 +4,9 @@ MALIS_2023Fall
 
 Topics:
 
-- Regularization [[slides]](docs/06_regularization.pdf)
-- Validation [[slides]](docs/07_validation.pdf)
-- Trees (part I) [[slides]](docs/09_trees.pdf)
+- Regularization [[slides]](content/06_regularization.pdf)
+- Validation [[slides]](content/07_validation.pdf)
+- Trees (part I) [[slides]](content/09_trees.pdf)
 
 Supplementary Material:
 
