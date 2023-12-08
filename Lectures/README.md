@@ -3,7 +3,7 @@
 
 Lecture's content and syllabus
 
-&#x1F4D1;  Lecture 1: Introduction [Oct. 6]Page
+&#x1F4D1;  [Lecture 1: Introduction [Oct. 6]](1)
 
 &#x1F4D1;  Lecture 2: Linear Models for Regression [Oct 13]Page
 
