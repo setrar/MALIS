@@ -45,7 +45,7 @@ Where:
 \begin{gather}
 - P(Y=1) \text{  is the probability of the binary outcome } Y \text { being 1. } \qquad \qquad \qquad \qquad \qquad \qquad 
 \\
-- X_1, X_2, \ldots, X_p \text { are the input features. } \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad 
+- X_1, X_2, \ldots, X_p \text { are the input features. } \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad
 \\
 - b_0, b_1, b_2, \ldots, b_p \text{  are the coefficients to be learned from the training data. } \qquad \qquad \qquad 
 \\
