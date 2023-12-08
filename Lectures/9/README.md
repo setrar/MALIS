@@ -11,7 +11,7 @@ Topics:
 Supplementary Material:
 
 - Regularization: [05_regularization.ipynb](../../demos/05_regularization.ipynb)
-- Jupyter notebook: 06_trees.ipynb
+- Jupyter notebook: [06_trees.ipynb](../../demos/06_trees.ipynb)
 
 Required previous knowledge:
 
