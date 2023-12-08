@@ -12,7 +12,7 @@ Topics:
 
 Supplementary material:
 
-1. Jupyter notebook: [02_linear_classifiers.ipynb](02_linear_classifiers.ipynb0
+1. Jupyter notebook: [02_linear_classifiers.ipynb](../../demos/02_linear_classifiers.ipynb)
 1. Excel sheet: [lda_playground.xls](lda_playground.xls)
 
 ## Class Session:
