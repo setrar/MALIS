@@ -5,7 +5,7 @@ The closed-form solution for linear regression involves finding the optimal para
 
 Given the linear model:
 
-y = \alpha + \beta \cdot x 
+$$y = \alpha + \beta \cdot x $$
 
 where:
 ```math
