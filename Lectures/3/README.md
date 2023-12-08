@@ -1,4 +1,4 @@
-# Lecture 3: Linear Classifiers: LDA & Logistic Regression [Oct 18]
+# &#x1F4D1;  Lecture 3: Linear Classifiers: LDA & Logistic Regression [Oct 18]
 
 Pre-lecture Material:
 
