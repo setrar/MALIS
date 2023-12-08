@@ -20,7 +20,7 @@ where:
 \end{cases}
 ```
 
-The closed-form solution for the coefficients $$ \alpha $$ and $$ \beta $$ can be found using the following formulas:
+The closed-form solution for the coefficients $$\alpha$$ and $$\beta$$ can be found using the following formulas:
 
 \[ \beta_1 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2} \]
 
