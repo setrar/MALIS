@@ -5,13 +5,17 @@ The closed-form solution for linear regression involves finding the optimal para
 
 Given the linear model:
 
-\[ y = \beta_0 + \beta_1 \cdot x \]
+y = \alpha + \beta \cdot x 
 
 where:
-- \( y \) is the dependent variable,
-- \( x \) is the independent variable,
-- \( \beta_0 \) is the y-intercept,
-- \( \beta_1 \) is the slope.
+```math
+\begin{cases}
+-  y  \text { is the dependent variable, }
+-  x  \text { is the independent variable, }
+- \alpha  \text { is the y-intercept, }
+-  \beta  \text { is the slope. }
+\end{cases}
+```
 
 The closed-form solution for the coefficients \( \beta_0 \) and \( \beta_1 \) can be found using the following formulas:
 
