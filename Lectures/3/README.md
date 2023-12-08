@@ -41,10 +41,10 @@ $$P(Y=1) = \frac{1}{1 + e^{-(b_0 + b_1X_1 + b_2X_2 + \ldots + b_pX_p)}}$$
 
 Where:
 - $$P(Y=1)$$ is the probability of the binary outcome $$Y$$ being 1.
-- \(X_1, X_2, \ldots, X_p\) are the input features.
-- \(b_0, b_1, b_2, \ldots, b_p\) are the coefficients to be learned from the training data.
+- $$X_1, X_2, \ldots, X_p$$ are the input features.
+- $$b_0, b_1, b_2, \ldots, b_p$$ are the coefficients to be learned from the training data.
 
-The natural logarithm (\(e\)) is used in the exponent, which allows logistic regression to model the probability of an event occurring on a scale from 0 to 1. The logistic function transforms the linear combination of input features and coefficients into a probability value. This probability is then used to make binary classification decisions.
+The natural logarithm (e) is used in the exponent, which allows logistic regression to model the probability of an event occurring on a scale from 0 to 1. The logistic function transforms the linear combination of input features and coefficients into a probability value. This probability is then used to make binary classification decisions.
 
 So, while logistic regression doesn't use a log operation in the sense of taking the logarithm of the input features, it does involve the natural logarithm in the logistic function that maps the linear combination of inputs to a probability between 0 and 1.
 
