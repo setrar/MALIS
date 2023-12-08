@@ -2,7 +2,7 @@
 
 Topics:
 
-1. Kernels [[slides]](docs/07_kernels.pdf)
+1. Kernels [[slides]](content/07_kernels.pdf)
 
 
 Topics to revise:
