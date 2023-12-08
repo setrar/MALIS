@@ -1,4 +1,4 @@
-# Lecture 8: Kernels (cont), Bias-variance decomposition and regularization [Dec 1]
+# &#x1F4D1;  Lecture 8: Kernels (cont), Bias-variance decomposition and regularization [Dec 1]
 
 Topics:
 
