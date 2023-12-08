@@ -1,4 +1,4 @@
-# Lecture 4: Gradient Descent [Oct 27]
+# &#x1F4D1;  Lecture 4: Gradient Descent [Oct 27]
 
 Topics:
 
