@@ -1,5 +1,4 @@
-Lecture 9: Regularization, Validation & Trees (Part I) [Dec 8]
-MALIS_2023Fall
+# &#x1F4D1;  Lecture 9: Regularization, Validation & Trees (Part I) [Dec 8]
 
 
 Topics:
