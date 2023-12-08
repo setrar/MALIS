@@ -2,8 +2,8 @@
 
 Topics:
 
-1. Kernels: Definition [slides] (already covered)
-1. Learning with Kernels [slides]
+1. Kernels: Definition [[slides]](content/07_kernels.pdf) (already covered)
+1. Learning with Kernels [[slides]](content/08_kernels.pdf)
 1. Kernel Machines [slides]
 1. Bias-Variance Decomposition [slides]
 1. Regularization [slides]
