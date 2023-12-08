@@ -1,4 +1,4 @@
-# Lecture 7: Kernels [Nov 24]
+# &#x1F4D1;  Lecture 7: Kernels [Nov 24]
 
 Topics:
 
