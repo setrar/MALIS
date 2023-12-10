@@ -100,9 +100,9 @@ Here's a more detailed breakdown:
   3. Use the computed gradients to update the weights and biases.
 
 - **Weight Update Rule:**
-  - The weight update for a given weight (\(w\)) is typically performed using the gradient (\(\frac{\partial E}{\partial w}\)) and the learning rate (\(\alpha\)):
+  - The weight update for a given weight $$w$$ is typically performed using the gradient \frac{\partial E}{\partial w}$$ and the learning rate $$\alpha$$:
 
-    \[ \text{New Weight} = \text{Old Weight} - \alpha \times \frac{\partial E}{\partial w} \]
+    $$ \text{New Weight} = \text{Old Weight} - \alpha \times \frac{\partial E}{\partial w} $$
 
 - **Activation Function Derivative:**
   - The derivative of the activation function is crucial for computing gradients during the backpropagation process. Common activation functions include the sigmoid, hyperbolic tangent (tanh), and rectified linear unit (ReLU).
