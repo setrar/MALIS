@@ -86,3 +86,6 @@ Important:
 
 # References
  - [ ] [sci-kit learn best for machine learning with Julia?](https://www.reddit.com/r/Julia/comments/u83fzz/scikit_learn_best_for_machine_learning_with_julia/)
+ - [ ] [Handwritten Digit Recognition using MNIST dataset and Julia Flux](https://github.com/crhota/Handwritten-Digit-Recognition-using-MNIST-dataset-and-Julia-Flux/blob/master/src/Handwriting%20Recognition.ipynb)
+ - [ ] [An introduction to Deep Learning using Flux Part I: A simple linear regression example](https://medium.com/p/5c44be0c5661)
+ - [ ] [An introduction to Deep Learning using Flux Part II: Multi-layer Perceptron](https://medium.com/@sophb/an-introduction-to-deep-learning-using-flux-part-ii-multi-layer-perceptron-32526b323474)
