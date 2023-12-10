@@ -1,5 +1,5 @@
 
-## &3xFFFFF; create a perceptron class in Julia from scratch
+## &#xFFFFF; create a perceptron class in Julia from scratch
 
 Certainly! A perceptron is a simple neural network model, and creating a basic perceptron class in Julia involves defining methods for initialization, training, and prediction. Below is an example of a simple perceptron class:
 
