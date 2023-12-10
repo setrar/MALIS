@@ -5,7 +5,7 @@ To compute the derivative of the function $ f(x) = \log(x^4) \cdot \sin(x^3) $, 
 
 The given function is a product of two functions:
 
-\[ f(x) = g(x) \cdot h(x) \]
+$$ f(x) = g(x) \cdot h(x) $$
 
 where:
 
