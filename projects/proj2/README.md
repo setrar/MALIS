@@ -46,7 +46,7 @@ Using the expression you found for 𝑙 in the previous question, estimate the s
 
 ## Part III – Getting familiar with the gradient:
 
-- [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [1]()
+- [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [(1)](#1-httpsmml-bookgithubiobookmml-bookpdf)
 .
 
 ---
