@@ -1,9 +1,6 @@
-# Project 1: Undertanding k-NNs
+# Project 2: The Perceptron
 
-kNN is considered a non-parametric method given that it makes few assumptions about the form of the data distribution. This approach is _memory-based_ as it requires no model to be fit.
-
-Nearest-neighbor methods use the observations from the training set closest in input space to 𝑥 to form 𝑦̂ . It assumes that if a sample's features are similar to the ones of points of one particular class then it belongs to that class. These points are known as nearest neighbors.
-
+The perceptron is a machine learning algorithm for learning a binary classifier of the form:
 
 ```math
 \text { The specific case where } \mathit{𝑘}=1 \text{ is denoted the nearest neighbor algorithm. }
@@ -47,15 +44,25 @@ Using the expression you found for 𝑙 in the previous question, estimate the s
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
 
+## Part III – Getting familiar with the gradient:
+
+- [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [1]()
+.
+
 ---
 
 ## Report:
 
-You need to prepare a 1-page report explaining how your model was trained, the results obtained in the validation set and the strategy you used to choose k. Then, you need to discuss how the curse of dimensionality affects kNNs and present/discuss the task you chose for Part II as a way to support your claims.
+You need to prepare a 1-page report explaining how your model was trained and in which ways you used
+the validation and test sets. Report the accuracy of your model. the results obtained in the validation set
+and the strategy you used to choose a model. Use as many pages as you require for Task 6. For task 6, if
+it is easier, you can deliver scanned copies of derivations done by hand
+
 
 ## Deliverables:
 
-Upload a zip file named <group-name>.zip containing the report, the knn.py file and any instructions required to run it.
+Upload a zip file named <group-name>.zip containing the report, the perceptron.py, the experiment.ipynb
+file and any instructions required to run it. If you scanned the derivations, an additional pdf with them.
 
 # Evaluation:
 
@@ -74,4 +81,8 @@ Important:
 - If ChatGPT is used, failing to report it and explaining its use leads to a mark of zero (0).
 - A group will be chosen at random to present their solution during the lecture. Failing to justify the submitted solution leads to a mark of zero (0).
 
+---
+### [1] https://mml-book.github.io/book/mml-book.pdf
 
+# References
+ - [ ] [sci-kit learn best for machine learning with Julia?](https://www.reddit.com/r/Julia/comments/u83fzz/scikit_learn_best_for_machine_learning_with_julia/)
