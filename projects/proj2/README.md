@@ -2,51 +2,13 @@
 
 The perceptron is a machine learning algorithm for learning a binary classifier of the form:
 
-```math
-\text { The specific case where } \mathit{𝑘}=1 \text{ is denoted the nearest neighbor algorithm. }
-\text{ Here } \hat{\mathit{y}} \text { is assigned the value } \mathit{y}_l  \text { of the closest point } \mathit{x}_𝑙 \text { to } \mathit{x} \text{ in the training data.}
-```
-
- This corresponds to a [_Voronoi tessellation_](https://en.wikipedia.org/wiki/Voronoi_diagram) of the training data.
-
-> Objectives
-> 
-> By executing this project, you will be able to
-> 1. Have a better understanding of the mechanisms behind the k nearest neighbor
-algorithm
-> 2. Be aware of the problems associated with the curse of dimensionality.
-> 3. Familiarize with the process of training, validation and testing
-> 4. Gain proficiency in the use of python, Jupyter, libraries used in machine learning (pandas, numpy, matplotlib, etc) and programming , in general.
-
-## Part I – Implementing a kNN from scratch:
-
-- [ ] `Task 1.` Your first task will be to code the k NN learning algorithm. In attachment you have been provided with the file [`knn.py`](knn.py). This contains the skeleton of a Python class that you will need to complete with the necessary code. In particular, you will need to implement the following functions:
-
-1. train – with the necessary steps to train a kNN
-2. predict – with the necessary steps to predict the labels y of a group of samples X.
-3. minkowski_dist – which implements the Minkowski distance as seen during the first lecture.
-
-Make sure you debug your code, to verify that it works accordingly. You may consider comparing it against scikit-learns implementation for validation.
-
-- [ ] `Task 2.` You have also been provided with two files: [training.csv](data/training.csv) and [validation.csv](data/validation.csv). Use them to do hyper-parameter tuning. In other words, use the data to choose the best k, according to your data.
-
-The [experiment.ipynb](experiments.ipynb) notebook contains some pre-coded routines that may help you to quickly plot your data (as long as it is 2D) and display it.
-
-## Part II – The curse of dimensionality:
-
-You will dig into the concept of the curse of dimensionality. To get familiar with it, first read section 2.5 from the book [The Elements of Statistical Learning](https://hastie.su.domains/Papers/ESLII.pdf). After reading, **choose one** of the two tasks below.
-
-- [ ] `Task 3.` Suppose you have a D dimension hypercube with all sides of length 1 in the Cartesian map, i.e. [0,1]𝐷. You sample the training data **uniformly** from this hypercube, i.e. ∀𝑖 , 𝐱𝑖 ∈ [0,1]𝐷. Assume 𝑘=10 to define the label of a test point.
-
-Let 𝑙 be the edge length of the smallest hypercube that contains all k-nearest neighbor of a test point. What is the approximate volume of the hypercube? What is the length of 𝑙 in terms of 𝑘, 𝐷 (the dimensions) and 𝑁 the number of training points?
-
-Using the expression you found for 𝑙 in the previous question, estimate the size of 𝑙 as a fuction of 𝐷, while assuming a training set of size N=1000. Plot it in [experiment.ipynb](experiments.ipynb). What consequences this may have for the k nearest neighbor algorithm?
+&#x274C; NOT FINISHED
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
 
 ## Part III – Getting familiar with the gradient:
 
-- [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [1]()
+- [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [(1)](#1-httpsmml-bookgithubiobookmml-bookpdf)
 .
 
 ---
@@ -86,3 +48,6 @@ Important:
 
 # References
  - [ ] [sci-kit learn best for machine learning with Julia?](https://www.reddit.com/r/Julia/comments/u83fzz/scikit_learn_best_for_machine_learning_with_julia/)
+ - [ ] [Handwritten Digit Recognition using MNIST dataset and Julia Flux](https://github.com/crhota/Handwritten-Digit-Recognition-using-MNIST-dataset-and-Julia-Flux/blob/master/src/Handwriting%20Recognition.ipynb)
+ - [ ] [An introduction to Deep Learning using Flux Part I: A simple linear regression example](https://medium.com/p/5c44be0c5661)
+ - [ ] [An introduction to Deep Learning using Flux Part II: Multi-layer Perceptron](https://medium.com/@sophb/an-introduction-to-deep-learning-using-flux-part-ii-multi-layer-perceptron-32526b323474)
