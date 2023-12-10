@@ -1,7 +1,7 @@
 
 
 
-To compute the derivative of the function \( f(x) = \log(x^4) \cdot \sin(x^3) \), you'll need to apply the product rule and the chain rule. Let's break it down step by step:
+To compute the derivative of the function $ f(x) = \log(x^4) \cdot \sin(x^3) $, you'll need to apply the product rule and the chain rule. Let's break it down step by step:
 
 The given function is a product of two functions:
 
