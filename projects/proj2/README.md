@@ -37,14 +37,24 @@ Make sure you debug your code, to verify that it works accordingly. You may cons
 
 ***Task 2***. Document your code.
 
-&#x274C; NOT FINISHED
+## Part II – Using the perceptron:
 
-- [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
+You will now use your coded perceptron to classify a handwritten digit as 0 or 1. To this end, create a jupyter notebook denoted experiment.ipynb. This will contain all your experiments. We will work with the UCI ML hand-written digits datasets that is contained in
+scikit-learn.
+
+***Task 3***. Load the dataset and using the load_digits function in scikit-learn. Check its documentation to see how you can use it (link). The dataset contains digits from 0 to 9. Discard all digits different from 0 and 1.
+
+***Task 4***. Using the remaining dataset, split your data into training, validation and test. You can use the `train_test_split` function from `scikit-learn`.
+
+***Task 5***. Train your perceptron using the training set. Use the validation set to choose a model.
+Report the selected model’s accuracy using the testing set. Report your results.
+_Hint_: The digits dataset is a dataset of images. You need to convert them from a 2D array to a 1D one.
 
 ## Part III – Getting familiar with the gradient:
 
 - [ ] Task 6. Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf) [(1)](#1-httpsmml-bookgithubiobookmml-bookpdf)
-.
+
+Bonus point: Solve exercise 5.8
 
 ---
 
