@@ -11,7 +11,8 @@ The perceptron is a machine learning algorithm for learning a binary classifier 
 \end{gather}
 ```
 
-### Objectives
+---
+***Objectives***
 
 By executing this project, you will be able to
 
@@ -19,6 +20,7 @@ By executing this project, you will be able to
 1. Strengthen your understanding of derivation and the gradient descent algorithm.
 1. Familiarize with the process of training, validation and testing by splitting the data on your own.
 1. Improve your proficiency in the use of coding tools and libraries for machine learning by building a full project from scratch .
+---
 
 &#x274C; NOT FINISHED
 
