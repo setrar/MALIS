@@ -7,7 +7,7 @@ The perceptron is a machine learning algorithm for learning a binary classifier 
 \hat{𝑦} = ℎ(𝒙) = 𝑠𝑖𝑔𝑛({\color{Green}𝒘}^𝑇 𝒙 + {\color{Salmon}b})
 \\
 \\
-\text{ where } {\color{Green}𝒘} \text{ is a vector of real-valued weights and } {\color{Salmon}b} \text{ is denoted the bias } \qquad \qquad \qquad \qquad
+\text{ where } {\color{Green}𝒘} \text{ is a vector of real-valued weights and } {\color{Salmon}b} \text{ is denoted the bias } \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad
 \end{gather}
 ```
 
