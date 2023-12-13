@@ -22,6 +22,21 @@ By executing this project, you will be able to
 1. Improve your proficiency in the use of coding tools and libraries for machine learning by building a full project from scratch .
 ---
 
+## Part I – Implementing a perceptron algorithm from scratch:
+
+***Task 1***. Your first task will be to code the perceptron algorithm in a file called `perceptron.py`.
+
+This time, you will not be provided with a skeleton file. To be consistent with the previous project,
+you will need to create a class named Perceptron, which should have the following two methods:
+1. train – with the necessary steps to train a perceptron
+2. predict – with the necessary steps to predict the labels y of a group of samples X.
+
+You may add any other functions that you consider necessary.
+
+Make sure you debug your code, to verify that it works accordingly. You may consider comparing it against `scikit-learn` implementation for validation.
+
+***Task 2***. Document your code.
+
 &#x274C; NOT FINISHED
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
