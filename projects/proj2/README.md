@@ -2,6 +2,10 @@
 
 The perceptron is a machine learning algorithm for learning a binary classifier of the form:
 
+```math
+\hat{𝑦} = ℎ(𝒙) = 𝑠𝑖𝑔𝑛(𝒘^𝑇𝒙 + 𝑏)
+```
+
 &#x274C; NOT FINISHED
 
 - [ ] Task 4. Solve exercises 2.3 and 2.4 from The Elements of Statistical Learning.
