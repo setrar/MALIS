@@ -40,7 +40,7 @@ It obviously took some time, around 10 minutes.
 
 ## Part II – Using the perceptron:
 
-- [ ] Task 3. The [MINST Database](https://en.wikipedia.org/wiki/MNIST_database) was loaded through the [Flux.jl](https://fluxml.ai/) package. The majority of our testing has been done using the MINST Database. While focusing on the implementation of Perceptron. We used the `Flux.jl` package to see how to use the Perceptron in an Machine Learning environment:
+- [ ] Task 3. The [MINST Database](https://en.wikipedia.org/wiki/MNIST_database) was loaded through the [Flux.jl](https://fluxml.ai/) package. The majority of our testing have been done using the MINST Database. While focusing on the implementation, and optimisation of the Perceptron. We used the `Flux.jl` package to better understand how to use the Perceptron through a Machine Learning environment:
 
 - [Full DB Analysis - 0 to 9 digits](experiments/experiment_with-Flux-MNIST-full.jl.ipynb)
 - [Partial DB Analysis - 0 to 1](experiments/experiment_with-Flux-MNIST-part.jl.ipynb)
