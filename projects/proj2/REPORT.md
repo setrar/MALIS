@@ -28,4 +28,6 @@ function predict(perceptron::Perceptron, input::Vector{Float64}) ...
 function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 ```
 
-The simple Perceptron uses the `sign` step function as its activation function, during training the prediction is called and from the first [experiment](experiments/experiment.ipynb) a mere `.098` acuracy score was achieved. The training was already using the MINST Dataset.
+1. The [simple Perceptron](experiments/perceptron.jl) uses the `sign` step function as its activation function, during training the prediction is called and from the first [experiment](experiments/experiment.ipynb) a mere `.098` acuracy score was achieved. The training was already using the MINST Dataset.
+2. We then tried to use the sigmoid function as its activation function and the result was literrally the same.
+3. We started thinking about decomposing the predition/training work. We extended the simple Perceptron by allowing multiple instances to call the process. We created the [MultiClass Perceptron](perceptron.jl)
