@@ -35,3 +35,10 @@ function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 
 The best acuracy result we received was `.81` when splitting to 10 classes and rounding the epochs to 100. The learning rate was left to `.01`
 It obviously took some time, around 10 minutes. 
+
+## Part II – Using the perceptron:
+
+- [ ] Task 3. The [MINST Database](https://en.wikipedia.org/wiki/MNIST_database) was loaded through the [Flux.jl](https://fluxml.ai/) package. The majority of our testing has been done using the MINST Database. While focusing on the implementation of Perceptron. We used the `Flux.jl` package to see how to use the Perceptron in an Machine Learning environment:
+
+- [Full DB Analysis - 0 to 9 digits](experiments/experiment_with-Flux-MNIST-full.jl.ipynb)
+- [Partial DB Analysis - 0 to 1](experiments/experiment_with-Flux-MNIST-part.jl.ipynb)
