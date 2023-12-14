@@ -56,3 +56,5 @@ Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of M
 
 Click here &#x1F449; [Exercises REPORT](REPORT_Part-III.jl.ipynb) 
 
+## &#x1F4D5; Displaimer
+- [ ] ChatGPT was used all along the project
