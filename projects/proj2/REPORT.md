@@ -58,3 +58,4 @@ Click here &#x1F449; [Exercises REPORT](REPORT_Part-III.jl.ipynb)
 
 ## &#x1F4D5; Displaimer
 - [ ] ChatGPT was used all along the project
+- [ ] Any references that helped making the project have been added at the bottom of each notebooks in the `References` section
