@@ -6,7 +6,7 @@ Team: Ekemini Ekong, Brice Robert
 
 ## Part I – Implementing a perceptron algorithm from scratch:
 
-- [ ] Task 1. Several experiments has been implemented to create the  `perceptron.jl` source code.
+- [ ] Task 1. Several experiments have been implemented to create the  [`perceptron.jl`](perceptron.jl) source code.
 
 - [ ] Task 2. Document your code.
 
