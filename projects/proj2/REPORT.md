@@ -30,4 +30,8 @@ function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 
 1. The [simple Perceptron](experiments/perceptron.jl) uses the `sign` step function as its activation function, during training the prediction is called and from the first [experiment](experiments/experiment.ipynb) a mere `.098` acuracy score was achieved. The training was already using the MINST Dataset.
 2. We then tried to use the sigmoid function as its activation function and the result was literrally the same.
-3. We started thinking about decomposing the predition/training work. We extended the simple Perceptron by allowing multiple instances to call the process. We created the [MultiClass Perceptron](perceptron.jl)
+3. We started thinking about decomposing the predition/training work. We extended the simple Perceptron by allowing multiple instances to call the process. We created the [MultiClass Perceptron](perceptron.jl). The `MCP` can be split into multiple classes per epoch calls. The multiple calls are then joined by fetching the best prediction.
+4. Finally, before calling the training process, the data has been massaged and being flattened.
+
+The best acuracy result we received was `.81` when splitting to 10 classes and rounding the epochs to 100. The learning rate was left to `.01`
+It obviously took some time, around 10 minutes. 
