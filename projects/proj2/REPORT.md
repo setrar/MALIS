@@ -42,5 +42,16 @@ It obviously took some time, around 10 minutes.
 
 - [ ] Task 3. The [MINST Database](https://en.wikipedia.org/wiki/MNIST_database) was loaded through the [Flux.jl](https://fluxml.ai/) package. The majority of our testing have been done using the MINST Database. While focusing on the implementation, and optimisation of the Perceptron. We used the `Flux.jl` package to better understand how to use the Perceptron through a Machine Learning environment:
 
-- [Full DB Analysis - 0 to 9 digits](experiments/experiment_with-Flux-MNIST-full.jl.ipynb)
-- [Partial DB Analysis - 0 to 1](experiments/experiment_with-Flux-MNIST-part.jl.ipynb)
+- [Full DB Analysis - 0 to 9 digits](experiments/experiment_with-Flux-MNIST-full.jl.ipynb) is used to display the images, the misidentified images, the acuracy score (0.998) and the learning curve.
+- [Partial DB Analysis - 0 to 1](experiments/experiment_with-Flux-MNIST-part.jl.ipynb), this notebook was used to split the data by only using the 0 and 1 images. The learning curve was not as sharp as the full dataset.
+
+- [ ] Task 5. Somehow, The perceptron was used using the training set.
+
+## Part III – Getting familiar with the gradient:
+
+
+- [ ] Task 6.
+
+Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
+
+[Exercises REPORT](REPORT_Part-III.jl.ipynb)
