@@ -8,7 +8,7 @@ Team: Ekemini Ekong, Brice Robert
 
 - [ ] Task 1. Several experiments has been implemented to create the  `perceptron.jl` source code.
 
-First, as simple perceptron file has been layed out. with a `mutable` structure `Perceptron` since Julia like C uses data structure rather than object oriented encapsulation `Class`, the all necessary functions has been added 
+First, as simple perceptron file has been layed out. with a `mutable` structure `Perceptron` since Julia like C uses data structure rather than object oriented encapsulation `Class`, then all necessary functions have been added to allow the perceptron to do some basic training.
 
 
 ```julia
