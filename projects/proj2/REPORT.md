@@ -12,22 +12,17 @@ First, as simple perceptron file has been layed out. with a `mutable` structure 
 
 
 ```julia
-
 # Perceptron class definition
 mutable struct Perceptron
     weights::Vector{Float64}
     bias::Float64
 end
-
 # Constructor for Perceptron
 function Perceptron(input_size::Int) ...
-
 # Activation function (step function)
 function activate(x) ...
-
 # Prediction method for Perceptron
 function predict(perceptron::Perceptron, input::Vector{Float64}) ...
-
 # Train the perceptron model
 function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 ```
