@@ -54,4 +54,5 @@ It obviously took some time, around 10 minutes.
 
 Solve exercises 5.1-5.3, 5.5-5.7 and 5.9 from Chapter 5 in [The Mathematics of Machine Learning](https://mml-book.github.io/book/mml-book.pdf)
 
-[Exercises REPORT](REPORT_Part-III.jl.ipynb)
+Click here &#x1F449; [Exercises REPORT](REPORT_Part-III.jl.ipynb) 
+
