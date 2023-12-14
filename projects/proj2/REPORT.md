@@ -10,6 +10,7 @@ Team: Ekemini Ekong, Brice Robert
 
 First, as [simple perceptron](experiments/perceptron.jl) file has been layed out with a `mutable` structure `Perceptron` since Julia like C uses data structure rather than object oriented encapsulation `Class`, then all necessary functions have been added to allow the perceptron to do some basic training.
 
+During the training, the Perceptron data will be mutated this is why `mutable` has been added. By default, Julia tends to take the functional programming side and favors immutability and function first approach.
 
 ```julia
 # Perceptron class definition
@@ -26,3 +27,5 @@ function predict(perceptron::Perceptron, input::Vector{Float64}) ...
 # Train the perceptron model
 function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 ```
+
+The simple Perceptron uses the `sign` step function as its activation function, during training the prediction is called and from the first [experiment](experiments/experiment.ipynb) a mere `.09` acuracy score was achieved.
