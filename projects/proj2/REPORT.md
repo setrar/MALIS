@@ -8,10 +8,10 @@ Team: Ekemini Ekong, Brice Robert
 
 - [ ] Task 1. Several experiments has been implemented to create the  `perceptron.jl` source code.
 
-First, as simple perceptron file
+First, as simple perceptron file has been layed out. with a `mutable` structure `Perceptron` since Julia like C uses data structure rather than object oriented encapsulation `Class`, the all necessary functions has been added 
+
 
 ```julia
-using LinearAlgebra
 
 # Perceptron class definition
 mutable struct Perceptron
@@ -20,35 +20,14 @@ mutable struct Perceptron
 end
 
 # Constructor for Perceptron
-function Perceptron(input_size::Int)
-    weights = rand(Float64, input_size)
-    bias = rand()
-    return Perceptron(weights, bias)
-end
+function Perceptron(input_size::Int) ...
 
 # Activation function (step function)
-function activate(x)
-    return x > 0 ? 1.0 : 0.0
-end
+function activate(x) ...
 
 # Prediction method for Perceptron
-function predict(perceptron::Perceptron, input::Vector{Float64})
-    weighted_sum = (perceptron.weights ⋅ input) + perceptron.bias
-    return activate(weighted_sum)
-end
+function predict(perceptron::Perceptron, input::Vector{Float64}) ...
 
 # Train the perceptron model
-function train_perceptron!(model, train_data, epochs = 10, lr = 0.1)
-    for epoch in 1:epochs
-        for (x, y) in train_data
-            ŷ = predict(model, x)
-            error = y - ŷ
-            
-            # Update weights and bias
-            model.weights .+= lr * error * x
-            model.bias += lr * error
-        end
-        println("Epoch $epoch")
-    end
-end
+function train_perceptron!(model, train_data, epochs = 10, lr = 0.1) ...
 ```
