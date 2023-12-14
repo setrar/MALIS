@@ -33,12 +33,8 @@ function train!(model::Perceptron, inputs::Matrix{Float64}, targets::Vector{Int}
             model.weights .+= learning_rate * error * x
             model.bias += learning_rate * error
         end
-        # --FIXME
-        ic = eachcol(inputs); @show ic
-        # println("Epoch $epoch, Loss: $(sum(abs.(targets .- predict.(Ref(model), eachcol(inputs)))) / length(targets))")
-        loss = sum(abs.(targets .- ŷ₊)) / length(targets)
         if epoch == 10 
-            println("Epoch $epoch, Loss: $loss\t")
+            println("Epoch $epoch, Progress: .........\t")
         end
     end
 end
