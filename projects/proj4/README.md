@@ -1,6 +1,6 @@
 # Boosting with a perceptron
 
-*  "boosting with a perceptron," it suggests using a perceptron as a base learner within a boosting algorithm. Boosting is an ensemble learning technique that combines the predictions of multiple weak learners (base models) to create a strong learner.
+"boosting with a perceptron," it suggests using a perceptron as a base learner within a boosting algorithm. Boosting is an ensemble learning technique that combines the predictions of multiple weak learners (base models) to create a strong learner.
 
 A perceptron is a simple neural network architecture typically used for binary classification tasks. It consists of a single layer with one or more neurons. The learning algorithm adjusts the weights associated with each input feature to minimize the classification error.
 
