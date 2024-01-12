@@ -95,3 +95,7 @@ println("Accuracy: $accuracy")
 ```
 
 Note that the code assumes you have a function `build_perceptron` that creates and trains a perceptron. You can implement this function using the `Perceptron` module or any other method you prefer for training a perceptron. Additionally, make sure to install the required packages by running `import Pkg; Pkg.add("DecisionTree"); Pkg.add("AdaBoost")` in your Julia environment if you haven't already.
+
+# References
+
+- [ ] [[05x06] DecisionTree.jl: Decision Tree, Random Forest, AdaBoost | Julia Supervised Machine Learning](https://www.youtube.com/watch?v=XTApO31m3Xs)
