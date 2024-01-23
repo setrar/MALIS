@@ -22,11 +22,6 @@ struct Hermitianer end
 const ᴴ = Hermitianer() #typed \^H
 Base.:(*)(x, ::Hermitianer) = conj(transpose(x))
 
-# Convolution infix function
-function ⊗(a, b) 
-    return conv(a,b)
-end
-
 # Contatenation infix function
 # https://math.stackexchange.com/questions/298648/is-there-a-common-symbol-for-concatenating-two-finite-sequences
 # typed \doubleplus
@@ -36,5 +31,4 @@ end
 
 ⦰ = reverse # https://en.wikipedia.org/wiki/APL_syntax_and_symbols#Monadic_functions
 ∑ = sum # Sum alias
-Fᴵ = ifft # Inverse Fourier Transform
 argmax = findmax # Alias used for MLE search 
