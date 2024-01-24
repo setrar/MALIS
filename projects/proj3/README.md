@@ -14,12 +14,10 @@ By executing this project, you will be able to
 1. Improve your proficiency in the use of coding tools and libraries for machine learning by building a full project from scratch .
 ---
 
-***Task 1***. Your first task will be to code the perceptron algorithm in a file called `perceptron.py`.
+***Task 1***. You will implement ridge regression from scratch in a file that you will name ridge.py.
+You may use the implementation of linear regression showcased in the course as a starting point.
+__You cannot use scikit-learn. It is expected that you code the algorithm from scratch.__
 
-This time, you will not be provided with a skeleton file. To be consistent with the previous project,
-you will need to create a class named Perceptron, which should have the following two methods:
-1. train – with the necessary steps to train a perceptron
-2. predict – with the necessary steps to predict the labels y of a group of samples X.
 
 You may add any other functions that you consider necessary.
 
