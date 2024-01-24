@@ -21,6 +21,34 @@ Make sure you debug your code, to verify that it works accordingly. You may cons
 ***Task 2***. Check your implementation using the Olympics 100 m dataset that has been showcased
 in several lectures. Are your results similar? How do you choose λ? Define a strategy for this.
 
+---
+
+## Report:
+
+You need to prepare a 1-page report $\underline{ \text{explaining in detail}}$ the strategy you used to implement ridge
+regression. You should illustrate the performance of your implementation in the 100 m Olympics dataset
+and comment on the choice of $\lambda$. Optionally, you can compare your implementation to that of `scikit-learn`.
+
+
+## Deliverables:
+
+Upload a zip file named <group-name>.zip containing the report, the perceptron.py, the experiment.ipynb
+file and any instructions required to run it. If you scanned the derivations, an additional pdf with them.
+
+# Evaluation:
+
+| Criteria | Score |
+|-|-|
+| our code runs and works as expected on the data | 8 |
+| Your code runs on any dataset | 2 |
+| Your report | 10 |
+| Scikit-learn comparison | 1 |
+
+
+Important:
+- Failing to submit a report leads to a mark of zero (0).
+- If ChatGPT is used, failing to report it and explaining its use leads to a mark of zero (0).
+- A group will be chosen at random to present their solution during the lecture. Failing to justify the submitted solution leads to a mark of zero (0).
 
 ## References
 
