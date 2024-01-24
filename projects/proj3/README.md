@@ -32,8 +32,8 @@ and comment on the choice of $\lambda$. Optionally, you can compare your impleme
 
 ## Deliverables:
 
-Upload a zip file named <group-name>.zip containing the report, the perceptron.py, the experiment.ipynb
-file and any instructions required to run it. If you scanned the derivations, an additional pdf with them.
+Upload a zip file named `<group-name>.zip` containing the report, the `ridge.py` file, any notebooks you
+produced and any instructions required to run it.
 
 # Evaluation:
 
