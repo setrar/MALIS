@@ -16,7 +16,7 @@ By executing this project, you will be able to
 
 ***Task 1***. You will implement ridge regression from scratch in a file that you will name ridge.py.
 You may use the implementation of linear regression showcased in the course as a starting point.
-$\text{ You cannot use scikit-learn. It is expected that you code the algorithm from scratch. }$
+$\text{ \underline{You cannot use scikit-learn. It is expected that you code the algorithm from scratch.} }$
 
 
 You may add any other functions that you consider necessary.
