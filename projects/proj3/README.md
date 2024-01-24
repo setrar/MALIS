@@ -14,18 +14,12 @@ By executing this project, you will be able to
 1. Improve your proficiency in the use of coding tools and libraries for machine learning by building a full project from scratch .
 ---
 
-***Task 1***. You will implement ridge regression from scratch in a file that you will name `ridge.py`.
-
-You may use the implementation of linear regression showcased in the course as a starting point.
-
-$\underline{ \text{You cannot use scikit-learn. It is expected that you code the algorithm from scratch.} }$
-
-
-You may add any other functions that you consider necessary.
+***Task 1***. You will implement ridge regression from scratch in a file that you will name `ridge.py`. You may use the implementation of linear regression showcased in the course as a starting point. $\underline{ \text{You cannot use scikit-learn. It is expected that you code the algorithm from scratch.} }$
 
 Make sure you debug your code, to verify that it works accordingly. You may consider comparing it against `scikit-learn` implementation for validation.
 
-***Task 2***. Document your code.
+***Task 2***. Check your implementation using the Olympics 100 m dataset that has been showcased
+in several lectures. Are your results similar? How do you choose λ? Define a strategy for this.
 
 
 ## References
