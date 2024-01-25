@@ -44,7 +44,7 @@ We initiated the project by constructing a `Ridge Regression` **class** in &#x1F
 
 The key aspects of our implementation include a straightforward approach to the Ridge Regression algorithm without data standardization, as we worked with a single feature &#x1F4BE; dataset &#x1F3C3;(Olympics 100m dataset)&#x1F3C5; . The focus was on correctly applying the &#x26D4; `L2 penalty` to the coefficients during the model fitting process.
 
-The fit method integrates the regularization term into the linear regression, while the predict method generates the model predictions. 
+The fit method integrates the &#x1F4CF; regularization term into the &#x1F4C9; linear regression, while the predict method generates the model predictions. 
 &#x1F4D1; Special attention was given to the numerical stability of the algorithm, opting for `np.linalg.solve` over `matrix inversion` methods for solving the linear equations.
 
 Subsequent to the model development, we embarked on comparing our custom model's performance with `scikit-learn`'s Ridge Regression implementation. Using the `Mean Squared Error (MSE)` metric, we observed remarkably similar results:
