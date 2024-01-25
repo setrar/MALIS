@@ -1,3 +1,5 @@
+import numpy as np
+
 # using alpha to represent lambda to avoid naming conflicts
 class RidgeRegression:
     def __init__(self, alpha=1.0):
