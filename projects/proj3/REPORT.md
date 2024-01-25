@@ -40,7 +40,7 @@ class RidgeRegression:
 
 Click here &#x1F449; [Experiment](ridge.ipynb) 
 
-We initiated the project by constructing a `Ridge Regression` **class** in #&x1F40D; Python. The primary focus was on integrating the L2 regularization directly into the linear regression framework and using a python class.
+We initiated the project by constructing a `Ridge Regression` **class** in &#x1F40D; Python. The primary focus was on integrating the L2 regularization directly into the linear regression framework and using a python class.
 
 The key aspects of our implementation include a straightforward approach to the Ridge Regression algorithm without data standardization, as we worked with a single feature dataset (Olympics 100m dataset). The focus was on correctly applying the L2 penalty to the coefficients during the model fitting process.
 
