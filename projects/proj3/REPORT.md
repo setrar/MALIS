@@ -2,7 +2,7 @@
 
 Project 3: Ridge Regression
 
-Team: Ekemini Ekong, Brice Robert 
+&#x1F465; Team: Ekemini Ekong, Brice Robert 
 
 - [ ] Task 1. Development of the [`ridge.py`](ridge.py) file to implement Ridge Regression without using external libraries like scikit-learn.
 
