@@ -60,6 +60,6 @@ Regarding the choice of the regularization parameter $\alpha$ (alpha), we conduc
 
 In conclusion, our `Ridge Regression implementation` demonstrated robust performance, closely mirroring that of established machine learning libraries. The insights gained from the analysis of $\alpha$'s impact on the model's performance were invaluable, highlighting the importance of `regularization` in machine learning algorithms.
 
-## &#x1F4D5; Displaimer
+## &#x1F4DD; Displaimer
 - [ ] ChatGPT was used all along the project
 - [ ] Any references that helped making the project have been added at the bottom of each notebooks in the `References` section
