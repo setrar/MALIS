@@ -49,10 +49,10 @@ The fit method integrates the regularization term into the linear regression, wh
 
 Subsequent to the model development, we embarked on comparing our custom model's performance with `scikit-learn`'s Ridge Regression implementation. Using the `Mean Squared Error (MSE)` metric, we observed remarkably similar results:
 
-```powershell
-Our Model's MSE: 0.18584114069835977
-scikit-learn Model MSE: 0.18584114069831603
-```
+| | |
+|-|-|
+| Our Model's MSE:        | 0.18584114069835977 |
+| scikit-learn Model MSE: | 0.18584114069831603 |
 
 This close similarity in performance strongly validates our model's accuracy and reliability.
 
