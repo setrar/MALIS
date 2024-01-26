@@ -1,0 +1,156 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "6c767432-f44d-4cd7-8c17-c0360f0f4e97",
+   "metadata": {},
+   "source": [
+    "## 1. Global overview\n",
+    "The following questions require a short answer (2-3 sentences). To discourage random guessing, no credit is given to answers without a correct explanation.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "021bfc3b-4fce-4a50-bf88-03f4abcbd9dc",
+   "metadata": {},
+   "source": [
+    "(a) [1/2 point] In one sentence, tell the difference between classification and regression."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "06f6ca60-9cf5-4ef7-a0ee-b5685027e710",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b74c155c-61b4-488d-90cc-6ae569d6a79b",
+   "metadata": {},
+   "source": [
+    "(b) [1/2 point] Consider the following logistic regression classifier of the form $$P(y = 1|X, W) = σ(w_0 + W^TX)$$, where $σ(·)$ is the sigmoid function and $x ∈ R^2$. $P(y = 1|x, w)$ can be viewed as a function of $x$, that we can get by changing the parameters $w$. What would be the range of $P$ in such case?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8e79f669-b927-443e-8715-468bb6b96850",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d6e5e3d8-bb08-496a-ab61-210da88e4c25",
+   "metadata": {},
+   "source": [
+    "(c) [1/2 point] `True/False`. Given w the weights of the perceptron, we can consider that a data point x is correctly classified if and only if $W^TXy$ > 0."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "02ad9ef1-a82b-40b7-86f4-ca1f3d7fa120",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "41c1ecf0-5991-4bf0-9d1c-dfeda728df31",
+   "metadata": {},
+   "source": [
+    "(d) [1/2 point] Yes/No.You train an SVM using N training points. Your observe that the trained model has M support vectors. A new set of K points arrives. You retrain your SVM using N + K points. Can you tell how many support vectors your new model will have?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "afe8589c-82fd-485e-a4dc-c953bcf2f135",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cdf10107-76d9-4167-91fa-9d34b60093a3",
+   "metadata": {},
+   "source": [
+    "(e) [1/2 point] True/False. In ridge regression, choosing a very high value for the regularization term $(λ)$ will lead to a model with high bias and high variance."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1c6a4bba-5ba7-4133-b2e0-86fcbf465c0a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "298a4936-5b40-474c-9797-d4c957cffdfd",
+   "metadata": {},
+   "source": [
+    "(f) [1/2 point] What is the role of the validation and testing data sets?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "87a0ebcc-6290-4379-a8a0-138044d99382",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a115e8d-8047-4a50-bacf-ff4973468e10",
+   "metadata": {},
+   "source": [
+    "(g) [1 point] You want to classify the data set below with a linear SVM. You use a linear, a quadratic, a cubic and a Gaussian (RBF) kernel. List the kernels that can perfectly classify the data."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "31f7d771-0ea7-476d-8eeb-bbd4fdc4bd07",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "97a49f30-d0c9-4b17-b3c8-cffb34fc7040",
+   "metadata": {},
+   "source": [
+    "(h) [1/2 point] True/False. A weak classifier will never have an error rate greater than $1/2$."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7d82f90c-aef0-4f7f-b12b-7b89a3157d65",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Julia 1.9.3",
+   "language": "julia",
+   "name": "julia-1.9"
+  },
+  "language_info": {
+   "file_extension": ".jl",
+   "mimetype": "application/julia",
+   "name": "julia",
+   "version": "1.10.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
