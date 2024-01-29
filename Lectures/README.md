@@ -21,7 +21,7 @@ Lecture's content and syllabus
 
 &#x1F4D1;  [Lecture 9: Regularization, Validation & Trees (Part I) [Dec 8]](9)
 
-&#x1F4D1;  [Lecture 10: Ensembles [Jan 12]](10)
+&#x1F4D1;  [Lecture 10: Ensembles [Jan 12]](_10)
 
 
 # References
