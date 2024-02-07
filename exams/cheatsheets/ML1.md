@@ -30,7 +30,7 @@ Creating a condensed cheat sheet that encompasses the key concepts from the list
 
 ### The Perceptron & Bias-Variance Decomposition
 - **Perceptron Learning Rule**: $w := w + \alpha(y - \hat{y})x$
-- **Bias-Variance Tradeoff**: Total error = Bias$^2$ + Variance + Noise
+- **Bias-Variance Tradeoff**: Total error = $Bias^2$ + Variance + Noise
 
 ### Support Vector Machines & Kernels
 - **SVM Objective**: Maximize margin between classes; $w \cdot x + b = 0$
