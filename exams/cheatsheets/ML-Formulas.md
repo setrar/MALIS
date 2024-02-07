@@ -32,7 +32,7 @@ For an efficient cheat sheet based on the provided lecture topics, focusing on k
 - **Boosting Weight Update**: Weights updated based on error of previous model's performance.
 
 ### Unsupervised Learning
-- **k-Means Clustering**: Objective to minimize $\sum_{i=1}^{k} \sum_{x \in S_i} ||x - \mu_i||^2$, where $\mu_i$ is the mean of points in $S_i$.
+- **k-Means Clustering**: Objective to minimize $\sum_{i=1}^k \sum_{x \in S_i} ||x - \mu_i||^2$, where $\mu_i$ is the mean of points in $S_i$.
 - **PCA**: Find the $k$ eigenvectors of the covariance matrix $X^TX$ that correspond to the $k$ largest eigenvalues.
 
 ### Neural Networks
