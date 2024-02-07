@@ -1,19 +1,17 @@
 # CheatSheet
 
-Generate a one page cheatsheet for MachineLearning course
-
 Generate a condensed cheat sheet base of the below lectures
-Lecture 2: Linear Models for Regression
-Lecture 3: Linear Classifiers: LDA & Logistic Regression
-Lecture 4: Gradient Descent
-Lecture 5: The Perceptron & Bias-Variance Decomposition
-Lecture 6: Support Vector Machines & Kernels 
-Lecture 7: Kernels
-Lecture 8: Kernels, Bias-variance decomposition and regularization
- Lecture 9: Regularization, Validation & Trees
-Lecture 10: Ensembles
-Lecture 11: Unsupervised Learning
-Lecture 12: Neural Networks
+- Lecture 2: Linear Models for Regression
+- Lecture 3: Linear Classifiers: LDA & Logistic Regression
+- Lecture 4: Gradient Descent
+- Lecture 5: The Perceptron & Bias-Variance Decomposition
+- Lecture 6: Support Vector Machines & Kernels 
+- Lecture 7: Kernels
+- Lecture 8: Kernels, Bias-variance decomposition and regularization
+- Lecture 9: Regularization, Validation & Trees
+- Lecture 10: Ensembles
+- Lecture 11: Unsupervised Learning
+- Lecture 12: Neural Networks
 
 
 Creating a condensed cheat sheet that encompasses the key concepts from the listed lectures on machine learning can provide a quick reference to the most important principles, formulas, and algorithms covered in your course. Here's a structured summary:
