@@ -17,23 +17,23 @@ Generate a condensed cheat sheet base of the below lectures
 Creating a condensed cheat sheet that encompasses the key concepts from the listed lectures on machine learning can provide a quick reference to the most important principles, formulas, and algorithms covered in your course. Here's a structured summary:
 
 ### Linear Models for Regression
-- **Linear Regression**: \(y = \beta_0 + \beta_1x_1 + ... + \beta_nx_n + \epsilon\)
-- **Ordinary Least Squares (OLS)**: Minimize \(\sum (y_i - \hat{y}_i)^2\)
+- **Linear Regression**: $y = \beta_0 + \beta_1x_1 + ... + \beta_nx_n + \epsilon$
+- **Ordinary Least Squares (OLS)**: Minimize $\sum (y_i - \hat{y}_i)^2$
 
 ### Linear Classifiers: LDA & Logistic Regression
-- **Logistic Regression**: \(\log\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1x_1 + ... + \beta_nx_n\)
+- **Logistic Regression**: $\log\left(\frac{p}{1-p}\right) = \beta_0 + \beta_1x_1 + ... + \beta_nx_n$
 - **Linear Discriminant Analysis (LDA)**: Maximizes the ratio of between-class variance to within-class variance in any particular data set thereby guaranteeing maximal separability.
 
 ### Gradient Descent
-- **Gradient Descent Formula**: \(\theta := \theta - \alpha \nabla_\theta J(\theta)\)
-- **Learning Rate (\(\alpha\))**: Controls the step size at each iteration.
+- **Gradient Descent Formula**: $\theta := \theta - \alpha \nabla_\theta J(\theta)$
+- **Learning Rate ($\alpha$)**: Controls the step size at each iteration.
 
 ### The Perceptron & Bias-Variance Decomposition
-- **Perceptron Learning Rule**: \(w := w + \alpha(y - \hat{y})x\)
-- **Bias-Variance Tradeoff**: Total error = Bias\(^2\) + Variance + Noise
+- **Perceptron Learning Rule**: $w := w + \alpha(y - \hat{y})x$
+- **Bias-Variance Tradeoff**: Total error = Bias$^2$ + Variance + Noise
 
 ### Support Vector Machines & Kernels
-- **SVM Objective**: Maximize margin between classes; \(w \cdot x + b = 0\)
+- **SVM Objective**: Maximize margin between classes; $w \cdot x + b = 0$
 - **Kernel Trick**: Allows SVMs to learn non-linear boundaries.
 
 ### Kernels
