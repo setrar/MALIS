@@ -4,4 +4,4 @@ Machine Learning and Intelligent Systems course (MALIS) taught at [EURECOM](http
 
 This repository serves as a container for labs, exercises, homework and demos. The course syllabus can be found [here](https://malis-course.github.io/syllabus).
 
-<img src=images/DirkZee.gif width='' height='' > </img>
+<img src=images/DirkZee.gif width='50%' height='50%' > </img>
