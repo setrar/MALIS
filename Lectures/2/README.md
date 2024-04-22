@@ -7,7 +7,7 @@ Topics:
 
 Supplementary Material:
 
-Jupyter notebook: [01_linear_regression.ipynb](https://github.com/setrar/MALIS/blob/MALIS-2023/demos/01_linear_models.ipynb)
+Jupyter notebook: [01_linear_regression.ipynb](../../demos/01_linear_models.ipynb)
 
 Concepts to Revise:
 
