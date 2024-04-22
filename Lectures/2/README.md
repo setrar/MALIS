@@ -7,7 +7,7 @@ Topics:
 
 Supplementary Material:
 
-Jupyter notebook: [01_linear_regression.ipynb](../demos/01_linear_regression.ipynb)
+Jupyter notebook: [01_linear_regression.ipynb](../../demos/01_linear_regression.ipynb)
 
 Concepts to Revise:
 
