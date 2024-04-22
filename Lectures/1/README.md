@@ -138,6 +138,10 @@ Now, combine the results:
 \text{So, the indefinite integral of } 4x^3 - 2x^2 + 3x \text{ with respect to x is: } x^4 + \frac{2}{3}x^3 + \frac{3}{2}x^2 + C \text{, where C is the constant of integration.}
 ```
 
+# References
+
+- [ ] [No free lunch theorem](https://en.wikipedia.org/wiki/No_free_lunch_theorem)
+
 
 
 
