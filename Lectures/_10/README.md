@@ -4,10 +4,11 @@ Topics:
 
 Ensembles [slides](content/10_ensembles.pdf)
 
-Required Previous Knowledge:
+## Required Previous Knowledge:
 
 Gradient Descent (review lecture )
-Complementary (Advanced) Resources:
+
+## Complementary (Advanced) Resources:
 
 SAT-based Decision Tree Learning for Large Data Sets. Research paper on advanced training algorithms for decision trees, 2021 [link](https://moodle.eurecom.fr/pluginfile.php/15946/mod_page/content/9/16509-Article%20Text-20003-1-2-20210518.pdf)
 
