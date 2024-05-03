@@ -7,6 +7,6 @@
 
 ## Topics to review before the lecture:
 
-1. Previous years [[exams]](../exams)
+1. Previous years [[exams]](../../exams)
 
 Last modified: Friday, 26 January 2024, 9:51 AM
