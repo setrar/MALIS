@@ -9,8 +9,8 @@ Topics:
 
 Supplementary material:
 
-1. The curse of dimensionality [notebook]](../../demos/03_curse.ipynb)
-1. Bias-variance decomposition [notebook]](../../demos/04_bias_variance.ipynb)
+1. The curse of dimensionality [[notebook]](../../demos/03_curse.ipynb)
+1. Bias-variance decomposition [[notebook]](../../demos/04_bias_variance.ipynb)
 
 
 Topics to revise:
