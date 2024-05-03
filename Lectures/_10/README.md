@@ -9,7 +9,7 @@ Required Previous Knowledge:
 Gradient Descent (review lecture )
 Complementary (Advanced) Resources:
 
-SAT-based Decision Tree Learning for Large Data Sets. Research paper on advanced training algorithms for decision trees, 2021 [link]
+SAT-based Decision Tree Learning for Large Data Sets. Research paper on advanced training algorithms for decision trees, 2021 [link](https://moodle.eurecom.fr/pluginfile.php/15946/mod_page/content/9/16509-Article%20Text-20003-1-2-20210518.pdf)
 
 Boosting Algorithms as Gradient Descent. Research paper on the analysis of boosting via gradient descent, 1999 [link](https://proceedings.neurips.cc/paper/1999/file/96a93ba89a5b5c6c226e49b88973f46e-Paper.pdf)
 
