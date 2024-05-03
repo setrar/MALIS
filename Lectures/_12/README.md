@@ -1,11 +1,12 @@
-Lecture 12: Neural Networks - Course Review [Jan 26]
-MALIS_2023Fall
-Lecture 12: Neural Networks - Course Review [Jan 26]
-Topics:
+# Lecture 12: Neural Networks - Course Review [Jan 26]
 
-Neural networks [slides]
-Course review
-Topics to review before the lecture:
+## Topics:
 
-Previous years exams
+1. Neural networks [[slides]](05_neural_nets.pdf)
+2. Course review
+
+## Topics to review before the lecture:
+
+1. Previous years [[exams]](../exams)
+
 Last modified: Friday, 26 January 2024, 9:51 AM
