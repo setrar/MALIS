@@ -2,7 +2,7 @@
 
 ## Topics
 
-1. Unsupervised learning Setup[slides](11_unsupervised_setup.pdf)
+1. Unsupervised learning Setup[[slides]](11_unsupervised_setup.pdf)
 2. Clustering [slides]
 3. Hierarchical clustering [slides]
 4. Principal component analysis [slides]
