@@ -2,7 +2,7 @@
 
 ## Topics:
 
-Ensembles [slides](content/10_ensembles.pdf)
+1. Ensembles [slides](content/10_ensembles.pdf)
 
 ## Required Previous Knowledge:
 
