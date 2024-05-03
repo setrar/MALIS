@@ -1,6 +1,6 @@
 # Lecture 10: Ensembles [Jan 12]
 
-Topics:
+## Topics:
 
 Ensembles [slides](content/10_ensembles.pdf)
 
