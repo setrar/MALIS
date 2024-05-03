@@ -23,6 +23,9 @@ Lecture's content and syllabus
 
 &#x1F4D1;  [Lecture 10: Ensembles [Jan 12]](_10)
 
+&#x1F4D1;  [Lecture 11: Unsupervised Learning [Jan 26]](_11)
+
+&#x1F4D1;  [Lecture 12: Neural Networks - Course Review [Jan 26]](_12)
 
 # References
 
